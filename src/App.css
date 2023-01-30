@@ -2,21 +2,11 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 .streamersCard{
   text-align: center;
   padding: 4px 16px 20px 16px;
   border-radius: 8px;
-  box-shadow: 0 15px 30px 1px #1c2229;
+  box-shadow: 0 6px 19px 1px #bdbdbd;
   margin:12px 0;
   background-color: #eddff7;
   overflow: hidden;
@@ -38,7 +28,8 @@ p{
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #a9c9ff;
+  background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
