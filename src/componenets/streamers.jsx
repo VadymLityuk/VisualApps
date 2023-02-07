@@ -34,7 +34,7 @@ fetchData()
                 <div className="App-header">
                     {streams && streams.length> 0 ?   streams.map((value,index)=>
                     <div className="streamersCard">
-                    <h1>{value.userName}</h1>
+                    <h1>Streamer: {value.userName}</h1>
                     <p>Viewers: {value.viewersNumber}</p>
                     <p>Game:{value.game}</p>
                     <p>Started:{value.startTime},{value.streamDuration}</p>
