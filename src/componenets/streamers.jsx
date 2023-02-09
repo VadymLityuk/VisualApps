@@ -7,7 +7,6 @@ export function Streamers(){
  const[streams,setStreams] = useState([])
 
  useEffect(()=>{
-    // here we gonna declare the data fetching function 
     const fetchData = async()=>{
     const result = await api.get("https://api.twitch.tv/helix/streams",{params:{first: 50}})
     const streamsData = [];
